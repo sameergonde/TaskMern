@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <body>
+            <style>
+                .container{
+                    border:1px solid black;
+                    padding: 20px;
+                    width: 80%;
+                    margin: 0 auto;
+                    background-color: aliceblue;
+                }
+                a{
+                    display:inline-block;
+                    padding:10px;                    
+                }
+                .link-separator::after{
+                    content:"|";
+                    margin:10px;
+                    color: black;
+                }
+            </style>
+            <div class="container">
+            <h1>Clicks Any One of The Following links</h1>
+            <a href="https://www.w3schools.com/"target="_blank">Opens in New</a>
+            <span class="link-separator"></span>
+            <a href="https://www.w3schools.com/">Opens in Self</a>
+            <span class="link-separator"></span>
+            <a href="https://www.w3schools.com/"target="_parent">Opens in Parent</a>
+            <span class="link-separator"></span>
+            <a href="https://www.w3schools.com/"target="_top">Opens in Body</a>
+            <span class="link-separator"></span>
+            <a href="mailto:sameergonde02@gmail.com">Send e-mail</a>
+            <span class="link-separator"></span>
+            </div>
+        </body>
+    </Head>
+</html>
